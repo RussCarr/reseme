@@ -1,0 +1,120 @@
+body {
+  height: 700px;
+  width: 100%;
+  background-color: black;
+}
+
+.container {
+  padding-top: 3rem;
+}
+
+*w {
+  outline: 2px solid black;
+  background-color: lightgrey;
+}
+
+.right-side {
+  background-color: white;
+}
+
+.left-side {
+  background-color: grey;
+  margin: 0.1rem;
+}
+
+.header {
+  text-align: center;
+  margin-left: 3rem;
+}
+
+.title-box {
+  text-align: left;
+}
+
+img {
+  border-radius: 100%;
+  padding: 2rem;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 100%;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-left: 1.4rem;
+  width: 100%;
+}
+
+.page {
+  border: 1px solid black;
+}
+
+.contact-info-box {
+  border-top: .2rem solid black;
+  border-bottom: .2rem solid black;
+}
+
+.job-list-date {
+  text-align: right;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+
+ul.fancy-list {
+  list-style: none;
+}
+
+ul.fancy-list li {
+  margin-left: -1em;
+  padding-left: 1em;
+  margin-top: 1.6em;
+  display: flex;
+  border-left: 1px solid black;
+}
+
+ul.fancy-list li:before {
+  content: "\26AB";
+  float: left;
+  margin-left: -1.4em;
+  margin-top: -1.5em;
+}
+
+ul.fancy-list .list-item-container {
+  margin-top: -1.4em;
+  margin-left: 1em;
+}
+
+i {
+  padding: .3rem;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.address p {
+  margin: 0;
+  padding: 0;
+}
+
+.social-media p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
